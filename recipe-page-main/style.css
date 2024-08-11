@@ -8,7 +8,7 @@ main{
     height: 1000px;
     margin: 80px auto 0px;
     border-radius: 15px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .image-omelette img{
@@ -17,9 +17,17 @@ main{
     border-radius: 10px;
 }
 
+.preparation-title{
+    margin-left: 4%;
+    color: #881645;
+    font-size: large;
+}
+
 .preparation{
     width: 100%;
     height:auto;
-    padding: 10px;
-    background-color: #fff8fc;
+    padding: 10px 0px 10px;
+    background-color: #fff1f9;
+    border-radius: 10px;
 }
+
