@@ -4,7 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+  </style>
+
   <title>Frontend Mentor | Recipe page</title>
 </head>
 
@@ -16,7 +27,7 @@
       <img src="assets/images/image-omelette.jpeg" alt="">
     </section>
 
-    <article>
+    <article class="description">
       <h1>Simple Omplette Recipe</h1>
       <p>
         An easy and quick dish, perfect for any meal. This classic omelette
@@ -27,10 +38,21 @@
 
     <article class="preparation">
       <p class="preparation-title">Preparation time</p>
-      <ul>
+      <ul class="preparation-time">
         <li><strong>Total: </strong>Approximately 10 minutes</li>
         <br><li><strong>Preparation: </strong>5 minutes</li>
         <br><li><strong>Cooking: </strong>5 minutes</li>
+      </ul>
+    </article>
+
+    <article>
+      <p class="ingredients">Ingredients</p>
+      <ul>
+        <li>2-3 large eggs</li>
+        <li>Salt, to taste</li>
+        <li>Pepper, to taste</li>
+        <li>1 tablespoon of butter or oil</li>
+        <li>Optional fillings cheesen diced vegetables, cooked meats, herbs</li>
       </ul>
     </article>
 
